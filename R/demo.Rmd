@@ -1,0 +1,10 @@
+---
+title: "demo"
+output: pdf_document
+date: "2022-12-09"
+params:
+  investment_case_markdown: NA
+  investment_case_html: NA
+---
+
+`r params$investment_case_markdown`
