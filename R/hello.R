@@ -13,7 +13,7 @@ server <- function(input, output, session) {
 
   output$download_pdf <- downloadHandler(
     filename = function(){
-      "this is a demo.pdf"
+      "this is a demo.html"
     },
     content = function(file) {
 
